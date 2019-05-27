@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="WebDriver" duration-ms="33313" started-at="2019-05-27T05:22:31Z" finished-at="2019-05-27T05:23:04Z">
+    <groups>
+    </groups>
+    <test name="Tests" duration-ms="33313" started-at="2019-05-27T05:22:31Z" finished-at="2019-05-27T05:23:04Z">
+      <class name="TestNG.userauth">
+        <test-method status="PASS" signature="launch()[pri:0, instance:TestNG.userauth@4501b7af]" name="launch" is-config="true" duration-ms="30868" started-at="2019-05-27T05:22:31Z" finished-at="2019-05-27T05:23:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="verifyauth()[pri:0, instance:TestNG.userauth@4501b7af]" name="verifyauth" duration-ms="2101" started-at="2019-05-27T05:23:02Z" finished-at="2019-05-27T05:23:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyauth -->
+        <test-method status="PASS" signature="close()[pri:0, instance:TestNG.userauth@4501b7af]" name="close" is-config="true" duration-ms="257" started-at="2019-05-27T05:23:04Z" finished-at="2019-05-27T05:23:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestNG.userauth -->
+    </test> <!-- Tests -->
+  </suite> <!-- WebDriver -->
+</testng-results>
