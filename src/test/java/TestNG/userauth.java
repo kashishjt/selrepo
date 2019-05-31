@@ -22,9 +22,15 @@ public class userauth {
 		driver.get("http://192.168.56.101:3001");
 		  driver.manage().window().maximize();
 		  driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
-		  ChromeOptions ChromeOptions = new ChromeOptions();
-		  ChromeOptions.addArguments("window-size=1024,768", "--no-sandbox");
+		  ///////ChromeOptions ChromeOptions = new ChromeOptions();
+		  //ChromeOptions.addArguments("window-size=1024,768", "--no-sandbox");
 		  //driver = new ChromeDriver(ChromeOptions);
+		  ChromeOptions chromeOptions = new ChromeOptions(); 
+		  chromeOptions.addArguments("--headless"); 
+		  chromeOptions.addArguments("--no-sandbox"); 
+		  WebDriver driver = new ChromeDriver(chromeOptions); 
+		  chromeOptions.addArguments("--headless"); 
+	
 	}
   @Test
   public void verifyauth() {
