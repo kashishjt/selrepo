@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="WebDriver" duration-ms="11028" started-at="2019-08-24T15:00:17Z" finished-at="2019-08-24T15:00:28Z">
+  <suite name="Default suite" duration-ms="26668" started-at="2019-08-24T15:39:19Z" finished-at="2019-08-24T15:39:46Z">
     <groups>
     </groups>
-    <test name="Tests" duration-ms="11028" started-at="2019-08-24T15:00:17Z" finished-at="2019-08-24T15:00:28Z">
+    <test name="Default test" duration-ms="26668" started-at="2019-08-24T15:39:19Z" finished-at="2019-08-24T15:39:46Z">
       <class name="TestNG.userauth">
-        <test-method status="PASS" signature="launch()[pri:0, instance:TestNG.userauth@28d25987]" name="launch" is-config="true" duration-ms="9864" started-at="2019-08-24T15:00:17Z" finished-at="2019-08-24T15:00:27Z">
+        <test-method status="PASS" signature="launch()[pri:0, instance:TestNG.userauth@4501b7af]" name="launch" is-config="true" duration-ms="18225" started-at="2019-08-24T15:39:19Z" finished-at="2019-08-24T15:39:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="verifyauth()[pri:0, instance:TestNG.userauth@28d25987]" name="verifyauth" duration-ms="996" started-at="2019-08-24T15:00:27Z" finished-at="2019-08-24T15:00:28Z">
+        <test-method status="PASS" signature="verifyauth()[pri:0, instance:TestNG.userauth@4501b7af]" name="verifyauth" duration-ms="8305" started-at="2019-08-24T15:39:38Z" finished-at="2019-08-24T15:39:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyauth -->
       </class> <!-- TestNG.userauth -->
-    </test> <!-- Tests -->
-  </suite> <!-- WebDriver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -30,6 +30,8 @@ public class userauth {
 		  chromeOptions.addArguments("--no-sandbox"); 
 		  WebDriver driver = new ChromeDriver(chromeOptions); 
 		  chromeOptions.addArguments("--headless"); 
+		  chromeOptions.addArguments("--no-sandbox");
+		  chromeOptions.addArguments("--disable-dev-shm-usage");
 	
 	}
   @Test
