@@ -17,7 +17,7 @@ public class userauth {
 	public void launch() {
 		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 		//System.setProperty("webdriver.gecko.driver","geckodriver.exe");
-		  driver = new ChromeDriver();
+		 driver = new ChromeDriver();
          //FirefoxDriver driver = new FirefoxDriver();
 		driver.get("http://192.168.56.101:3001");
 		  driver.manage().window().maximize();
@@ -32,6 +32,9 @@ public class userauth {
 		  chromeOptions.addArguments("--headless"); 
 		  chromeOptions.addArguments("--no-sandbox");
 		  chromeOptions.addArguments("--disable-dev-shm-usage");
+		  ChromeOptions ChromeOptions = new ChromeOptions();
+		  ChromeOptions.addArguments("--headless", "window-size=1024,768", "--no-sandbox");
+		  driver = new ChromeDriver(ChromeOptions);
 	
 	}
   @Test
